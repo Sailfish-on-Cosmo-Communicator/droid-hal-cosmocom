@@ -11,6 +11,13 @@
 %define droid_target_aarch64 1
 
 #define makefstab_skip_entries /mnt/vendor/persist /dev/cpuctl /dev/stune /sys/fs/bpf
+%define straggler_files \
+/bugreports\
+/d\
+/product\
+/sdcard\
+/verity_key\
+%{nil}
 
 %include rpm/dhd/droid-hal-device.inc
 
