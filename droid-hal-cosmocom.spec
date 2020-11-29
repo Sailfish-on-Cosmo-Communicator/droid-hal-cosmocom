@@ -15,8 +15,7 @@
 /bugreports\
 /d\
 /product\
-/sdcard\
-/verity_key\
+/sdcard
 %{nil}
 
 %include rpm/dhd/droid-hal-device.inc
